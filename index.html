@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,25 @@
   </head>
   <body>
     <main class="card">
+      <header class="site-header">
+        <img
+          class="logo"
+          src="logo-heig-vd.png"
+          alt="HEIG-VD — Haute École d’Ingénierie et de Gestion du Canton de Vaud"
+          width="240"
+          height="84"
+        />
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-pressed="false"
+        >
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span id="theme-label">Mode sombre</span>
+        </button>
+      </header>
+
       <p class="eyebrow">DÉMONSTRATION WEB</p>
       <h1>Mon premier site créé avec un agent ChatGPT</h1>
       <p class="intro">
